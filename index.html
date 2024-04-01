@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TG Creative Studio</title>
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico.png" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet" />
+        <link href="./style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <wrapper>
+            <section id="social-bar">
+                <div class="social-bar-column">
+                    <a
+                        href="https://www.instagram.com/timgoovers/"
+                        target="_blank">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="32"
+                            height="32"
+                            viewBox="0 0 24 24">
+                            <g
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2">
+                                <path
+                                    d="M4 8a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z" />
+                                <path
+                                    d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0m7.5-4.5v.01" />
+                            </g>
+                        </svg>
+                    </a>
+                    <a
+                        href="https://www.facebook.com/tim.goovers"
+                        target="_blank">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="32"
+                            height="32"
+                            viewBox="0 0 24 24">
+                            <path
+                                fill="currentColor"
+                                d="M9.198 21.5h4v-8.01h3.604l.396-3.98h-4V7.5a1 1 0 0 1 1-1h3v-4h-3a5 5 0 0 0-5 5v2.01h-2l-.396 3.98h2.396z" />
+                        </svg>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/tim-goovers/"
+                        target="_blank">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="32"
+                            height="32"
+                            viewBox="0 0 24 24">
+                            <path
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                d="M9.429 8.969h3.714v1.85c.535-1.064 1.907-2.02 3.968-2.02c3.951 0 4.889 2.118 4.889 6.004V22h-4v-6.312c0-2.213-.535-3.461-1.897-3.461c-1.889 0-2.674 1.345-2.674 3.46V22h-4zM2.57 21.83h4V8.799h-4zM7.143 4.55a2.53 2.53 0 0 1-.753 1.802a2.573 2.573 0 0 1-1.82.748a2.59 2.59 0 0 1-1.818-.747A2.548 2.548 0 0 1 2 4.55c0-.677.27-1.325.753-1.803A2.583 2.583 0 0 1 4.571 2c.682 0 1.336.269 1.819.747c.482.478.753 1.126.753 1.803"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </section>
+
+            <section id="hero">
+                <nav id="nav-bar">
+                    <div class="container">
+                        <header
+                            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-5 mb-4">
+                            <ul
+                                class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                                <li>
+                                    <a
+                                        href="./index.html"
+                                        class="nav-link px-4 link-warning"
+                                        ><p id="nav-bar-p">home</p></a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="./public/portfolio.html"
+                                        class="nav-link px-4 link-secondary"
+                                        ><p>portfolio</p></a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="./public/over-mij.html"
+                                        class="nav-link px-4 link-secondary"
+                                        ><p>over mij</p></a
+                                    >
+                                </li>
+                            </ul>
+
+                            <div class="col-md-3 text-end">
+                                <a
+                                    href="https://wa.me/31636183491"
+                                    target="_blank"
+                                    ><svg
+                                        class="nav-svg"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="currentColor"
+                                        class="bi bi-whatsapp"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                                    </svg>
+                                </a>
+                                <a href="#contact"
+                                    ><button
+                                        type="button"
+                                        class="btn btn-warning">
+                                        Contact
+                                    </button></a
+                                >
+                            </div>
+                        </header>
+                    </div>
+                </nav>
+
+                <div class="hero-container">
+                    <div class="hero-text">
+                        <h1>TG Creative</h1>
+                        <div class="hero-row">
+                            <h1>Studio</h1>
+                            <div class="hero-streep"></div>
+                            <div class="hero-backdrop">
+                                <p>
+                                    driven by a
+                                    <span class="hero-span">creative</span>,
+                                    focusing on digital experiences.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hero-backdrop-mobile">
+                            <p>
+                                driven by a
+                                <span class="hero-span">creative</span>,
+                                focusing
+                            </p>
+                            <p>on digital experiences.</p>
+                        </div>
+
+                        <img
+                            class="service-cirkel"
+                            src="./images/Service-cirkel.svg"
+                            alt="services" />
+                    </div>
+                </div>
+            </section>
+
+            <section id="over-mij">
+                <div class="over-mij-container">
+                    <div class="over-mij-div">
+                        <div class="over-mij-header-mobile">
+                            <h2>het gezicht achter de studio.</h2>
+                            <img
+                                class="over-mij-arrow"
+                                src="./images/Over-mij-arrow-mobile.svg" />
+                        </div>
+
+                        <div>
+                            <img
+                                class="over-mij-img"
+                                src="./images/IMG_5373.jpg"
+                                alt="foto tim goovers" />
+                        </div>
+                        <div class="over-mij-text">
+                            <div class="over-mij-header">
+                                <h2>het gezicht achter de studio.</h2>
+                                <img
+                                    class="over-mij-arrow"
+                                    src="./images/Over-mij-arrow.svg" />
+                            </div>
+                            <p>
+                                Mijn naam is Tim Goovers, 23 jaar oud en
+                                momenteel bezig met mijn vierde jaar als student
+                                Communication & Multimedia Design. Ik streef
+                                ernaar om merken te versterken en betere
+                                waardeproposities te ontwikkelen die leiden tot
+                                organische groei. Mijn expertise omvat branding,
+                                webdesign (ontwerp + front-end), content-creatie
+                                en grafisch ontwerp.
+                            </p>
+                            <div class="over-mij-buttons">
+                                <a href="./public/over-mij.html">
+                                    <button
+                                        type="button"
+                                        class="btn btn-light me-2">
+                                        Meer over mij
+                                    </button></a
+                                ><a href="#contact"
+                                    ><button
+                                        type="button"
+                                        class="btn btn-warning">
+                                        Get in touch
+                                    </button></a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="gradient-background">
+                <div class="container">
+                    <div class="skills-div">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24">
+                            <path
+                                fill="currentColor"
+                                d="M9.85 8.42c-.37-.15-.77-.21-1.18-.2c-.26 0-.49 0-.68.01c-.2-.01-.34 0-.41.01v3.36c.14.01.27.02.39.02h.53c.39 0 .78-.06 1.15-.18c.32-.09.6-.28.82-.53c.21-.25.31-.59.31-1.03c.01-.31-.07-.62-.23-.89a1.45 1.45 0 0 0-.7-.57M19.75.3H4.25C1.9.3 0 2.2 0 4.55v14.899c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3m-7.391 11.65c-.399.56-.959.98-1.609 1.22c-.68.25-1.43.34-2.25.34c-.24 0-.4 0-.5-.01s-.24-.01-.43-.01v3.209c.01.07-.04.131-.11.141H5.52c-.08 0-.12-.041-.12-.131V6.42c0-.07.03-.11.1-.11c.17 0 .33 0 .56-.01c.24-.01.49-.01.76-.02s.56-.01.87-.02c.31-.01.61-.01.91-.01c.82 0 1.5.1 2.06.31c.5.17.96.45 1.34.82c.32.32.57.71.73 1.14c.149.42.229.85.229 1.3c.001.86-.199 1.57-.6 2.13m7.091 3.89c-.28.4-.671.709-1.12.891c-.49.209-1.09.318-1.811.318c-.459 0-.91-.039-1.359-.129c-.35-.061-.7-.17-1.02-.32c-.07-.039-.121-.109-.111-.189v-1.74c0-.029.011-.07.041-.09c.029-.02.06-.01.09.01c.39.23.8.391 1.24.49c.379.1.779.15 1.18.15c.38 0 .65-.051.83-.141c.16-.07.27-.24.27-.42c0-.141-.08-.27-.24-.4c-.16-.129-.489-.279-.979-.471c-.51-.18-.979-.42-1.42-.719a2.625 2.625 0 0 1-.761-.85a2.158 2.158 0 0 1-.229-1.021c0-.43.12-.84.341-1.21c.25-.4.619-.72 1.049-.92c.469-.239 1.059-.349 1.769-.349c.41 0 .83.03 1.24.09c.3.04.59.12.86.23c.039.01.08.05.1.09c.01.04.02.08.02.12v1.63c0 .04-.02.08-.05.1c-.09.02-.14.02-.18 0c-.3-.16-.62-.27-.96-.34c-.37-.08-.74-.13-1.12-.13c-.2-.01-.41.02-.601.07c-.129.03-.24.1-.31.2c-.05.08-.08.18-.08.27s.04.18.101.26c.09.11.209.2.34.27c.229.12.47.23.709.33c.541.18 1.061.43 1.541.73c.33.209.6.49.789.83c.16.318.24.67.23 1.029c.011.471-.129.94-.389 1.331" />
+                        </svg>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24">
+                            <path
+                                fill="currentColor"
+                                d="M10.53 10.73c-.1-.31-.19-.61-.29-.92c-.1-.31-.19-.6-.27-.89c-.08-.28-.15-.54-.22-.78h-.02c-.09.43-.2.86-.34 1.29c-.15.48-.3.98-.46 1.48c-.14.51-.29.98-.44 1.4h2.54c-.06-.211-.14-.46-.23-.721c-.09-.269-.18-.559-.27-.859M19.75.3H4.25C1.9.3 0 2.2 0 4.55v14.9c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3M14.7 16.83h-2.091c-.069.01-.139-.04-.159-.11l-.82-2.38H7.91l-.76 2.35c-.02.09-.1.15-.19.141H5.08c-.11 0-.14-.061-.11-.18L8.19 7.38c.03-.1.06-.21.1-.33c.04-.21.06-.43.06-.65c-.01-.05.03-.1.08-.11h2.59c.08 0 .12.03.13.08l3.65 10.3c.03.109 0 .16-.1.16m3.4-.15c0 .11-.039.16-.129.16H16.01c-.1 0-.15-.061-.15-.16v-7.7c0-.1.041-.14.131-.14h1.98c.09 0 .129.05.129.14zm-.209-9.03a1.18 1.18 0 0 1-.911.35c-.33.01-.65-.12-.891-.35a1.3 1.3 0 0 1-.34-.92c-.01-.34.12-.66.359-.89c.242-.23.562-.35.892-.35c.391 0 .689.12.91.35c.22.24.34.56.33.89c.01.34-.11.67-.349.92" />
+                        </svg>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24">
+                            <path
+                                fill="currentColor"
+                                d="M8.54 10.73c-.1-.31-.19-.61-.29-.92s-.19-.6-.27-.89c-.08-.28-.15-.54-.22-.78h-.02c-.09.43-.2.86-.34 1.29c-.15.48-.3.98-.46 1.48c-.13.51-.29.98-.44 1.4h2.54c-.06-.21-.14-.46-.23-.72c-.09-.27-.18-.56-.27-.86m8.58-.29c-.55-.03-1.07.26-1.33.76c-.12.23-.19.47-.22.72h2.109c.26 0 .45 0 .57-.01c.08-.01.16-.03.23-.08v-.1a1.32 1.32 0 0 0-1.359-1.29M19.75.3H4.25C1.9.3 0 2.2 0 4.55v14.9c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3m-7.04 16.511h-2.09c-.07.01-.14-.041-.16-.11l-.82-2.4H5.92l-.76 2.36c-.02.09-.1.15-.19.14H3.09c-.11 0-.14-.06-.11-.18L6.2 7.39c.03-.1.06-.19.1-.31c.04-.21.06-.43.06-.65c-.01-.05.03-.1.08-.11h2.59c.07 0 .12.03.13.08l3.65 10.25c.03.11.001.161-.1.161m7.851-3.991c-.021.189-.031.33-.041.42c-.01.07-.069.13-.14.13c-.06 0-.17.01-.33.021c-.159.02-.35.029-.579.029c-.23 0-.471-.04-.73-.04h-3.17c.039.31.14.62.31.89a1.6 1.6 0 0 0 .729.601c.4.17.841.26 1.281.25c.35-.011.699-.04 1.039-.11a3.67 3.67 0 0 0 .891-.23c.05-.039.08-.02.08.08v1.531c0 .039-.01.08-.021.119a.242.242 0 0 1-.069.07c-.32.14-.65.24-1 .3c-.471.09-.94.13-1.42.12c-.761 0-1.4-.12-1.92-.35a3.391 3.391 0 0 1-1.261-.95c-.319-.39-.55-.83-.69-1.31a5.115 5.115 0 0 1-.209-1.461c0-.539.08-1.07.25-1.59c.16-.5.41-.96.75-1.37c.33-.4.739-.72 1.209-.95c.471-.23 1.03-.31 1.67-.31a3.61 3.61 0 0 1 1.55.31c.41.18.77.45 1.05.8c.26.34.47.72.601 1.14c.129.4.189.81.189 1.22c0 .24-.01.45-.019.64" />
+                        </svg>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24">
+                            <path
+                                fill="currentColor"
+                                d="M10.15 8.42a2.93 2.93 0 0 0-1.18-.2a13.9 13.9 0 0 0-1.09.02v3.36l.39.02h.53c.39 0 .78-.06 1.15-.18c.32-.09.6-.28.82-.53c.21-.25.31-.59.31-1.03a1.45 1.45 0 0 0-.93-1.46M19.75.3H4.25A4.25 4.25 0 0 0 0 4.55v14.9c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3m-7.09 11.65c-.4.56-.96.98-1.61 1.22c-.68.25-1.43.34-2.25.34l-.5-.01l-.43-.01v3.21a.12.12 0 0 1-.11.14H5.82c-.08 0-.12-.04-.12-.13V6.42c0-.07.03-.11.1-.11l.56-.01l.76-.02l.87-.02l.91-.01c.82 0 1.5.1 2.06.31c.5.17.96.45 1.34.82c.32.32.57.71.73 1.14c.15.42.23.85.23 1.3c0 .86-.2 1.57-.6 2.13m6.82-3.15v1.95c0 .08-.05.11-.16.11a4.35 4.35 0 0 0-1.92.37c-.19.09-.37.21-.51.37v5.1c0 .1-.04.14-.13.14h-1.97a.14.14 0 0 1-.16-.12v-5.58l-.01-.75l-.02-.78c0-.23-.02-.45-.04-.68a.1.1 0 0 1 .07-.11h1.78c.1 0 .18.07.2.16a3.03 3.03 0 0 1 .13.92c.3-.35.67-.64 1.08-.86a3.1 3.1 0 0 1 1.52-.39c.07-.01.13.04.14.11z" />
+                        </svg>
+
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24">
+                            <path
+                                fill="currentColor"
+                                d="M4.25.3C1.9.3 0 2.2 0 4.55v14.9c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zm11.31 5.13h2.03c.05-.01.09.03.1.07v9.54c0 .18.01.38.02.6c.02.21.03.41.04.58c0 .07-.03.13-.1.16c-.52.22-1.07.38-1.63.48c-.5.09-1.02.14-1.54.14c-.74.01-1.48-.14-2.15-.45c-.63-.29-1.15-.77-1.51-1.36c-.37-.61-.55-1.37-.55-2.28c-.01-.74.18-1.47.55-2.11c.38-.65.93-1.19 1.59-1.55c.7-.39 1.54-.58 2.53-.58c.05 0 .12 0 .21.01s.19.01.31.02V5.54c0-.07.03-.11.1-.11m-8.93.86h1.95c.06-.01.12.03.13.1c.01.01.01.02.01.03v10.26c0 .11-.05.16-.14.16H6.62c-.09 0-.13-.05-.13-.16V6.42c0-.09.05-.13.14-.13m8.23 4.24c-.39 0-.78.08-1.13.26c-.34.17-.63.42-.85.74c-.22.32-.33.75-.33 1.27c-.01.35.05.7.17 1.03c.1.27.25.51.45.71c.19.18.42.32.68.4c.27.09.55.13.83.13c.15 0 .29-.01.42-.02c.13.01.25-.01.36-.05v-4.4a2.558 2.558 0 0 0-.6-.07" />
+                        </svg>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24">
+                            <path
+                                fill="currentColor"
+                                d="M11.667 2H8.333a3.333 3.333 0 1 0 0 6.667h3.334z"
+                                opacity=".6" />
+                            <path
+                                fill="currentColor"
+                                d="M11.667 8.667H8.333a3.333 3.333 0 0 0 0 6.666h3.334z"
+                                opacity=".4" />
+                            <path
+                                fill="currentColor"
+                                d="M18.333 12a3.333 3.333 0 1 1-6.667 0a3.333 3.333 0 0 1 6.667 0" />
+                            <path
+                                fill="currentColor"
+                                d="M8.333 15.334h3.334v3.333a3.333 3.333 0 1 1-3.334-3.334"
+                                opacity=".2" />
+                            <path
+                                fill="currentColor"
+                                d="M11.666 2h3.333a3.333 3.333 0 1 1 0 6.667h-3.333z"
+                                opacity=".8" />
+                        </svg>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24">
+                            <g fill="none">
+                                <g
+                                    fill="currentColor"
+                                    clip-path="url(#akarIconsHtmlFill0)">
+                                    <path
+                                        d="M5.08 0h1.082v1.069h.99V0h1.082v3.236H7.152V2.153h-.99v1.083H5.081zm4.576 1.073h-.952V0h2.987v1.073h-.953v2.163H9.656zM12.165 0h1.128l.694 1.137L14.68 0h1.128v3.236h-1.077V1.632l-.744 1.151h-.019l-.745-1.15v1.603h-1.058zm4.181 0h1.083v2.167h1.52v1.07h-2.603z" />
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M5.046 22.072L3 4.717h18L18.953 22.07L11.99 24zm4.137-9.5l-.194-2.18h8.145l.19-2.128H6.664l.574 6.437h7.377l-.247 2.76l-2.374.642h-.002l-2.37-.64l-.152-1.697H7.332l.298 3.342l4.36 1.21l4.367-1.21l.532-5.964l.052-.571z"
+                                        clip-rule="evenodd" />
+                                </g>
+                                <defs>
+                                    <clipPath id="akarIconsHtmlFill0">
+                                        <path fill="#fff" d="M0 0h24v24H0z" />
+                                    </clipPath>
+                                </defs>
+                            </g>
+                        </svg>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24">
+                            <path
+                                fill="currentColor"
+                                d="M7.502 0h2.578v1.078h-1.5v1.078h1.5v1.078H7.502zm3.093 0h2.579v.938h-1.5v.187h1.5v2.156h-2.579v-.984h1.5v-.188h-1.5zm3.095 0h2.577v.938h-1.5v.187h1.5v2.156H13.69v-.984h1.5v-.188h-1.5z" />
+                            <path
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                d="m11.991 24l-6.944-1.928L3 4.717h18L18.954 22.07zM7.047 12.573l.191 2.128h7.377l-.247 2.76l-2.374.642h-.002l-2.37-.64l-.152-1.697H7.333l.298 3.342l4.36 1.21l4.367-1.21l.532-5.964l.052-.571l.384-4.309H6.664l.194 2.129h8.136l-.194 2.18z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio">
+                <div class="portfolio-div">
+                    <div class="portfolio-header">
+                        <h3>portfolio</h3>
+                        <a href="./public/portfolio.html">
+                            <button class="btn btn-light" type="button">
+                                Bekijk alle projecten
+                            </button></a
+                        >
+                    </div>
+                    <div class="portfolio-grid">
+                        <div class="portfolio-card belfort">
+                            <a href="./public/project-belfort.html">
+                                <div class="portfolio-page-inhoud">
+                                    <h4>Bèlfort</h4>
+                                    <div class="portfolio-tag">
+                                        <img
+                                            src="./images/TablerTag.svg"
+                                            alt="tag" />
+                                        logo design
+                                    </div>
+                                </div></a
+                            >
+                        </div>
+                        <div class="portfolio-card lab">
+                            <a href="./public/project-lab.html">
+                                <div class="portfolio-page-inhoud">
+                                    <h4>Imperfecties van Rotterdam</h4>
+                                    <div class="portfolio-tag">
+                                        <img
+                                            src="./images/TablerTag.svg"
+                                            alt="tag" />
+                                        school project
+                                    </div>
+                                </div></a
+                            >
+                        </div>
+                        <div class="portfolio-card lhz">
+                            <a href="./public/project-lhz.html">
+                                <div class="portfolio-page-inhoud">
+                                    <h4>Luctor Heinkenszand</h4>
+                                    <div class="portfolio-tag">
+                                        <img
+                                            src="./images/TablerTag.svg"
+                                            alt="tag" />
+                                        content creatie
+                                    </div>
+                                </div></a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="opleiding-ervaring">
+                <div>
+                    <div class="opleiding-ervaring-grid">
+                        <div class="opleiding-ervaring-div">
+                            <h3>education &<br />experience</h3>
+                        </div>
+                        <div class="opleiding-ervaring-flex">
+                            <div class="flex cmd">
+                                <img
+                                    src="./images/Opleiding-ervaring/avans-hogeschool.svg"
+                                    alt="avans hogeschool" />
+                                <p>
+                                    Mijn huidige bachelor opleiding CMD
+                                    <strong
+                                        >(Communication & Multimedia
+                                        Design)</strong
+                                    >
+                                    is een opleiding waarbij ik wordt opgeleid
+                                    tot een strategische ontwerper, hierbij leer
+                                    ik de hedendaagse problematiek op te lossen
+                                    met creatieve en (niet) traditionele design
+                                    methodes. Deze verschillende disciplines
+                                    staan centraal:
+                                    <strong
+                                        >communicatie, interactie, vormgeving,
+                                        technologie en onderzoek.</strong
+                                    >
+                                </p>
+                            </div>
+                            <div class="flex addmark">
+                                <img
+                                    src="./images/Opleiding-ervaring/addmark.svg"
+                                    alt="addmark" />
+                                <p>
+                                    Ik heb mijn stage bij
+                                    <strong>AddMark</strong> volbracht. Tijdens
+                                    deze periode heb ik de kans gekregen om
+                                    waardevolle inzichten en werkervaring op te
+                                    doen binnen dit groeiende marketing bureau.
+                                    De werkzaamheden die ik hier heb uitgevoerd
+                                    varieerde tussen opzetten van
+                                    <strong>
+                                        marketingcampagnes, branding en logo
+                                        design, tot website-modules
+                                        ontwerpen.</strong
+                                    >
+                                    Dit was een zeer leerzame periode waarbij ik
+                                    gebruik heb gemaakt van de vrijheid die ik
+                                    kreeg om mij te kunnen ontwikkelen.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="opleiding-ervaring-flex">
+                            <div class="flex hr">
+                                <img
+                                    src="./images/Opleiding-ervaring/hogeschool-rotterdam.svg"
+                                    alt="Hogeschool rotterdam" />
+                                <p>
+                                    Aangezien de opleiding CMD erg
+                                    maatschappelijk is ingesteld met weinig tot
+                                    geen betrekking financiële zaken, heb ik er
+                                    tijdens mijn minor-periode voor gekozen om
+                                    de minor
+                                    <strong
+                                        >‘Ondernemerschap & creatieve
+                                        businessconcepten op de markt
+                                        brengen’</strong
+                                    >
+                                    bij Hogeschool Rotterdam te volgen. Tijdens
+                                    deze minor heb ik gewerkt aan een vraagstuk
+                                    die verzorgd werd door marketingbureau:
+                                    <strong>Dapper the Growth Agency</strong>.
+                                    Hierbij heb ik marktonderzoek gedaan naar
+                                    het opzetten van een aparte creative agency
+                                    én of dit rendabel zou zijn voor het
+                                    bedrijf. Aan de hand van dat kader is er een
+                                    businesscase opgezet waarin ik Dapper heb
+                                    kunnen adviseren over de vervolgstappen die
+                                    ze kunnen gaan nemen. Zodoende heb ik ook
+                                    binnen dit vakgebied mijn kennis uit kunnen
+                                    breiden en de minor succesvol afgerond.
+                                </p>
+                            </div>
+                            <div class="flex tg">
+                                <img
+                                    src="./images/Opleiding-ervaring/TG LOGO.svg"
+                                    alt="TG Creative Studio" />
+                                <p>
+                                    Na de sfeerimpressie van het ondernemen bij
+                                    de minor, ben ik dit zelf gaan beoefenen in
+                                    de praktijk. Zo heb ik sinds oktober 2023
+                                    mijn eigen bedrijf, genaamd
+                                    <strong>TG Creative Studio</strong>. Met dit
+                                    bedrijf richt ik mij op het creëren van
+                                    <strong
+                                        >organische groei bij kleine
+                                        ondernemingen</strong
+                                    >, door middel van het verzorgen van een
+                                    gepaste identiteit en de hierbij behorende
+                                    uitingen.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="contact-container">
+                    <div class="contact-div">
+                        <div class="contact-text">
+                            <h3>samenwerken?</h3>
+                            <p>
+                                Versterk jouw merk met TG Creative Studio, waar
+                                visuele identiteit de sleutel is tot organische
+                                bedrijfsgroei. Stuur gelijk een berichtje, dan
+                                kijken we samen naar de mogelijkheden!
+                            </p>
+                            <p>
+                                Of neem contact met me op via
+                                timgoovers@gmail.com
+                            </p>
+                        </div>
+                        <form
+                            onsubmit="emailSend(); reset(); return false;"
+                            class="contact-form">
+                            <input
+                                class="form-text"
+                                type="text"
+                                placeholder="Naam"
+                                id="naam"
+                                name="naam"
+                                required />
+                            <input
+                                class="form-text"
+                                type="email"
+                                placeholder="Email"
+                                id="email"
+                                name="email"
+                                required
+                                autocomplete="email" />
+                            <textarea
+                                class="form-text"
+                                name="message"
+                                rows="3"
+                                cols="30"
+                                id="beschrijving"
+                                name="beschrijving"
+                                placeholder="Beschrijving opdracht"
+                                required></textarea>
+                            <input
+                                class="form-submit"
+                                type="submit"
+                                placeholder="Verstuur" />
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section id="footer">
+                <div class="container">
+                    <footer
+                        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                        <div class="col-md-4 d-flex align-items-center">
+                            <span class="mb-3 mb-md-0 text-body-secondary"
+                                >TG Creative Studio ©</span
+                            >
+                        </div>
+
+                        <ul
+                            class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                            <li class="ms-3">developed with:</li>
+                            <li class="ms-3">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        fill="currentColor"
+                                        d="M7.502 0h2.578v1.078h-1.5v1.078h1.5v1.078H7.502zm3.093 0h2.579v.938h-1.5v.187h1.5v2.156h-2.579v-.984h1.5v-.188h-1.5zm3.095 0h2.577v.938h-1.5v.187h1.5v2.156H13.69v-.984h1.5v-.188h-1.5z" />
+                                    <path
+                                        fill="currentColor"
+                                        fill-rule="evenodd"
+                                        d="m11.991 24l-6.944-1.928L3 4.717h18L18.954 22.07zM7.047 12.573l.191 2.128h7.377l-.247 2.76l-2.374.642h-.002l-2.37-.64l-.152-1.697H7.333l.298 3.342l4.36 1.21l4.367-1.21l.532-5.964l.052-.571l.384-4.309H6.664l.194 2.129h8.136l-.194 2.18z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <use xlink:href="#facebook"></use>
+                            </li>
+                            <li class="ms-3">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    viewBox="0 0 24 24">
+                                    <g fill="none">
+                                        <g
+                                            fill="currentColor"
+                                            clip-path="url(#akarIconsHtmlFill0)">
+                                            <path
+                                                d="M5.08 0h1.082v1.069h.99V0h1.082v3.236H7.152V2.153h-.99v1.083H5.081zm4.576 1.073h-.952V0h2.987v1.073h-.953v2.163H9.656zM12.165 0h1.128l.694 1.137L14.68 0h1.128v3.236h-1.077V1.632l-.744 1.151h-.019l-.745-1.15v1.603h-1.058zm4.181 0h1.083v2.167h1.52v1.07h-2.603z" />
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M5.046 22.072L3 4.717h18L18.953 22.07L11.99 24zm4.137-9.5l-.194-2.18h8.145l.19-2.128H6.664l.574 6.437h7.377l-.247 2.76l-2.374.642h-.002l-2.37-.64l-.152-1.697H7.332l.298 3.342l4.36 1.21l4.367-1.21l.532-5.964l.052-.571z"
+                                                clip-rule="evenodd" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="akarIconsHtmlFill0">
+                                                <path
+                                                    fill="#fff"
+                                                    d="M0 0h24v24H0z" />
+                                            </clipPath>
+                                        </defs>
+                                    </g>
+                                </svg>
+                            </li>
+                            <li class="ms-3">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        fill="currentColor"
+                                        d="M0 0h24v24H0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873c-.736-.345-1.554-.585-1.797-1.14c-.091-.33-.105-.51-.046-.705c.15-.646.915-.84 1.515-.66c.39.12.75.42.976.9c1.034-.676 1.034-.676 1.755-1.125c-.27-.42-.404-.601-.586-.78c-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005c-1.14 1.291-.811 3.541.569 4.471c1.365 1.02 3.361 1.244 3.616 2.205c.24 1.17-.87 1.545-1.966 1.41c-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109c1.74 1.756 6.09 1.666 6.871-1.004c.029-.09.24-.705.074-1.65zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805c0 1.232.063 2.363-.138 2.711c-.33.689-1.18.601-1.566.48c-.396-.196-.597-.466-.83-.855c-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517c.855.51 2.004.675 3.207.405c.783-.226 1.458-.691 1.811-1.411c.51-.93.402-2.07.397-3.346c.012-2.054 0-4.109 0-6.179z" />
+                                </svg>
+                                <use xlink:href="#instagram"></use>
+                            </li>
+                        </ul>
+                    </footer>
+                </div>
+            </section>
+
+            <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+            <script src="https://smtpjs.com/v3/smtp.js"></script>
+            <script src="script.js"></script>
+        </wrapper>
+    </body>
+</html>
